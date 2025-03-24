@@ -38,4 +38,5 @@ test.describe('Login tests', async () => {
     console.log(await response.text())
     expect(response.status()).toBe(StatusCodes.UNAUTHORIZED)
   })
+
 })
